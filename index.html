@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김창영_프로토타입제작</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/slick.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./images/icon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="container">
+        <div class="header clearfix">
+          <h1 class="logo">
+            <a href="index.html">
+              <img src="./images/logo.png" alt="CTM logo">
+            </a>
+          </h1>
+          <nav class="nav">
+            <ul>
+              <li><a href="#">회사정보</a></li>
+              <li><a href="#">뉴스</a></li>
+              <li><a href="#">서비스</a></li>
+              <li><a href="#">문의하기</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="video-container">
+      <!-- video -->
+      <video muted autoplay playsinline loop>
+        <source src="./CTM teaser.mp4" type="video/mp4">
+      </video>
+    </div>
+    
+
+    <!-- fade in, out -->
+    <section id="fade">
+      <div class="list">
+          <div class="listImg">
+              <img src="./images/banner2_1.png" alt="베너2_1">
+              <em>Chang Tech Motors
+                <p>V12엔진 탑재한 "Calour"공개</p>
+              </em>
+          </div>
+          <div class="listImg">
+              <img src="./images/banner2_2.png" alt="베너2_2">
+              <em>Chang Tech Motors
+                <p>V12엔진 탑재한 "Calour"공개</p>
+              </em>
+          </div>
+          <div class="listImg">
+              <img src="./images/banner2_3.png" alt="베너2_3">
+              <em>Chang Tech Motors
+                <p>V12엔진 탑재한 "Calour"공개</p>
+              </em>
+          </div>
+  </section>
+  <!-- slide -->
+      <section id="slide">
+        <div class="slide">
+            <ul class="clearfix">
+                <li>
+                  <img src="./images/banner1_1.png" alt="베너1_1">
+                  <em>CBS 770 얼티메이트 공개</em>
+                  <p>CTM, '5.2리터 V12엔진'</p>
+                </li>
+                <li>
+                  <img src="./images/banner1_2.png" alt="베너1_2">
+                  <em>CBS 770 얼티메이트 공개</em>
+                  <p>CTM, '5.2리터 V12엔진'</p>
+                </li>
+                <li>
+                  <img src="./images/banner1_3.png" alt="베너1_3">
+                  <em>CBS 770 얼티메이트 공개</em>
+                  <p>CTM, '5.2리터 V12엔진'</p>
+                </li>
+                <li>
+                  <img src="./images/banner3_1.png" alt="베너3_1">
+                  <em>CBX707 CMR23 에디션 공개</em>
+                  <p class="two">CTM, 697마력 파워 SUV</p>
+                </li>
+                <li>
+                  <img src="./images/banner3_2.png" alt="베너3_2">
+                  <em>CBX707 CMR23 에디션 공개</em>
+                  <p class="two">CTM, 697마력 파워 SUV</p>
+                </li>
+                <li>
+                  <img src="./images/banner3_3.png" alt="베너3_3">
+                  <em>CBX707 CMR23 에디션 공개</em>
+                  <p class="two">CTM, 697마력 파워 SUV</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+<!-- contents -->
+<div class="cont mt15">
+  <h4 class="ir_su">마우스오버2</h4>
+  <ul class="clearfix">
+      <li>
+          <a href="#">
+              <span>
+                  <img src="./images/cont1.png" alt="cont1">
+                  <em>CTM CBX 707, 포뮬러원<br>공식 FIA 의료 차량 선정</em>
+              </span>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span>
+                  <img src="./images/cont2.png" alt="cont2">
+                  <em>기술과 미학에서 최고를 추구하는 <br> CTM</em>
+              </span>
+          </a>
+      </li>
+      <li>
+          <a href="#">
+              <span>
+                  <img src="./images/cont3.png" alt="cont3">
+                  <em>CBX707, 한국 고객에게 맞춤형 <br>차량 인도 시작</em>
+              </span>
+          </a>
+      </li>
+      </ul>
+</div>
+
+<!-- service.tab1 -->
+ <ul class="tabs">
+  <li class="tab active" onclick="openTab('tab1')">시승신청</li>
+  <li class="tab" onclick="openTab('tab2')">A/S센터</li>
+  <li class="tab" onclick="openTab('tab3')">견적보기</li>
+ </ul>
+
+ <div id="tab1" class="content active">
+  <img src="./images/service1.png" alt="시승신청">
+ </div>
+
+ <div id="tab2" class="content">
+  <img src="./images/service2.png" alt="A/S센터">
+ </div>
+
+ <div id="tab3" class="content">
+  <img src="./images/service3.png" alt="견적보기">
+ </div>
+
+
+
+<!--tab-->
+<section id="contents" class="clearfix">
+  <article class="tabmenu">
+      <div class="tabbtn">
+          <ul class="clearfix" >
+              <li class="tit active"><a href="#">일정 / 이벤트</a></li>
+              <li class="tit"><a href="#">커뮤니티</a></li>
+          </ul>
+      </div>
+      <div class="tabcont">
+          <article class="schedule">
+              <ul class="clearfix">
+                  <li><a href="#"><img src="./images/schedule.png" alt="일정 / 이벤트"></a></li>
+              </ul>
+          </article>
+          <article class="community">
+              <ul class="clearfix">
+                  <li><a class="tit active">
+                    <img src="./images/community.png" alt="커뮤니티">
+                  </a><</li>
+              </ul>
+          </article>
+      </div>
+  </article>
+
+
+ 
+<!-- footer -->
+    <footer id="footer">
+      <article class="f_logo">
+        <img src="./images/f_logo.png" alt="">
+      </article>
+      <article class="f_info">주소: 서울특별시 강서구 방화대로 44 | 대표번호: 010-8493-1248 | 사업자번호: 000-00-0000</article>
+      <article class="f_copy">© Chang Tech Motors 2024</article>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+          // 탭메뉴
+          const tabbtn = $ (".tabbtn>ul>li");
+                  const tabCont = $ (".tabcont>article")
+                  tabCont.hide().eq(1).show();
+
+                  tabbtn.click(function(e){
+                      e.preventDefault();
+                      let target = $(this);
+                      let index = target.index();
+                      console.log(index)
+                      tabbtn.removeClass("active");
+                      target.addClass("active");
+                      tabCont.hide().eq(index).show();
+                  });
+     
+
+
+
+      // 탭메뉴 1
+      function openTab(tabId) {
+        // Hide all content divs
+        var contentDivs = document.querySelectorAll('.content');
+        contentDivs.forEach(function(div) {
+            div.classList.remove('active');
+        });
+
+        // Remove active class from all tabs
+        var tabs = document.querySelectorAll('.tab');
+        tabs.forEach(function(tab) {
+            tab.classList.remove('active');
+        });
+        
+        
+
+        // Show the selected content div and add active class to the clicked tab
+        var selectedTab = document.getElementById(tabId);
+        selectedTab.classList.add('active');
+
+        var clickedTab = document.querySelector('[onclick="openTab(\'' + tabId + '\')"]');
+        clickedTab.classList.add('active1');
+    }
+
+
+
+      // 페이드인 아웃
+          const List = $("#fade > .list");
+        $(".listImg").hide().eq(0).show();
+
+        setInterval(function () {
+            $(".listImg:first-child").fadeOut(5000).next().fadeIn(5000)
+                .end(4000).appendTo(List);
+        }, 5000);
+
+        // 슬라이드 베너1
+        const slider = $(".slide > ul");
+
+    setInterval(function(){
+        slider.animate({"left":"-100%"},1000,function(){
+            $(".slide > ul > li:first-child").appendTo(slider);
+            slider.css("left","0");
+        });
+    },3000);
+    
+    
+
+
+
+  </script>
+  
+</body>
+</html>
